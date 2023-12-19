@@ -1,8 +1,8 @@
 import React from "react";
 
-export default function Pricing() {
+export default function Fiyatlandirma() {
   return (
-    <div class="relative w-full h-full" id="Pricing">
+    <div class="relative w-full h-full" id="Fiyatlandırma">
       <div class="absolute hidden w-full bg-gray-50 lg:block h-96" />
       <div class="relative px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
         <div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
@@ -30,9 +30,9 @@ export default function Pricing() {
                   height="24"
                 />
               </svg>
-              <span class="relative text-[#4338ca]">Affordable</span>
+              <span class="relative text-[#4338ca]">Uygun</span>
             </span>{" "}
-            <span className="text-[#4338ca]">for everyone</span>
+            <span className="text-[#4338ca]">herkes için</span>
           </h2>
           <p class="text-base text-gray-500 md:text-lg">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -44,13 +44,13 @@ export default function Pricing() {
             <div class="p-8 shadow-md bg-white rounded">
               <div class="mb-4 text-center">
                 <p class="text-xl font-medium tracking-wide text-gray-500">
-                  Starter Plan
+                  Başlangıç Planı
                 </p>
                 <div class="flex items-center justify-center">
                   <p class="mr-2 text-5xl font-semibold text-[#4338ca] lg:text-6xl">
                     $39
                   </p>
-                  <p class="text-lg text-text-gray-500">/ month</p>
+                  <p class="text-lg text-text-gray-500">/ ay</p>
                 </div>
               </div>
               <ul class="mb-8 space-y-2">
@@ -77,7 +77,7 @@ export default function Pricing() {
                     </svg>
                   </div>
                   <p class="font-medium text-text-gray-500">
-                    10 deploys per day
+                    Günde 10 dağıtım
                   </p>
                 </li>
                 <li class="flex items-center">
@@ -102,7 +102,9 @@ export default function Pricing() {
                       />
                     </svg>
                   </div>
-                  <p class="font-medium text-text-gray-500">10 GB of storage</p>
+                  <p class="font-medium text-text-gray-500">
+                    10 GB depolama
+                  </p>
                 </li>
                 <li class="flex items-center">
                   <div class="mr-3">
@@ -126,7 +128,7 @@ export default function Pricing() {
                       />
                     </svg>
                   </div>
-                  <p class="font-medium text-text-gray-500">3 domains</p>
+                  <p class="font-medium text-text-gray-500">3 alan adı</p>
                 </li>
                 <li class="flex items-center">
                   <div class="mr-3">
@@ -150,14 +152,14 @@ export default function Pricing() {
                       />
                     </svg>
                   </div>
-                  <p class="font-medium text-text-gray-500">SSL Certificates</p>
+                  <p class="font-medium text-text-gray-500">SSL Sertifikaları</p>
                 </li>
               </ul>
               <button
                 type="submit"
                 class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-[#4338ca] hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
               >
-                Get Now
+                Şimdi Al
               </button>
             </div>
             <div class="w-11/12 h-2 mx-auto bg-white shadow-md rounded-b opacity-75" />
@@ -168,13 +170,13 @@ export default function Pricing() {
             <div class="p-8 shadow-md bg-white rounded">
               <div class="mb-4 text-center">
                 <p class="text-xl font-medium tracking-wide text-gray-500">
-                  Pro Plan
+                  Pro Planı
                 </p>
                 <div class="flex items-center justify-center">
                   <p class="mr-2 text-5xl font-semibold text-[#4338ca] lg:text-6xl">
                     $59
                   </p>
-                  <p class="text-lg text-text-gray-500">/ month</p>
+                  <p class="text-lg text-text-gray-500">/ ay</p>
                 </div>
               </div>
               <ul class="mb-8 space-y-2">
@@ -201,32 +203,8 @@ export default function Pricing() {
                     </svg>
                   </div>
                   <p class="font-medium text-text-gray-500">
-                    100 deploys per day
+                    Günde 100 dağıtım
                   </p>
-                </li>
-                <li class="flex items-center">
-                  <div class="mr-3">
-                    <svg
-                      class="w-4 h-4 text-teal-accent-400"
-                      viewBox="0 0 24 24"
-                      strokeLinecap="round"
-                      strokeWidth="2"
-                    >
-                      <polyline
-                        fill="none"
-                        stroke="#4338ca"
-                        points="6,12 10,16 18,8"
-                      />
-                      <circle
-                        cx="12"
-                        cy="12"
-                        fill="none"
-                        r="11"
-                        stroke="#4338ca"
-                      />
-                    </svg>
-                  </div>
-                  <p class="font-medium text-text-gray-500">50 GB of storage</p>
                 </li>
                 <li class="flex items-center">
                   <div class="mr-3">
@@ -251,7 +229,7 @@ export default function Pricing() {
                     </svg>
                   </div>
                   <p class="font-medium text-text-gray-500">
-                    Unlimited domains
+                    50 GB depolama
                   </p>
                 </li>
                 <li class="flex items-center">
@@ -276,14 +254,40 @@ export default function Pricing() {
                       />
                     </svg>
                   </div>
-                  <p class="font-medium text-text-gray-500">SSL Certificates</p>
+                  <p class="font-medium text-text-gray-500">
+                    Sınırsız alan adı
+                  </p>
+                </li>
+                <li class="flex items-center">
+                  <div class="mr-3">
+                    <svg
+                      class="w-4 h-4 text-teal-accent-400"
+                      viewBox="0 0 24 24"
+                      strokeLinecap="round"
+                      strokeWidth="2"
+                    >
+                      <polyline
+                        fill="none"
+                        stroke="#4338ca"
+                        points="6,12 10,16 18,8"
+                      />
+                      <circle
+                        cx="12"
+                        cy="12"
+                        fill="none"
+                        r="11"
+                        stroke="#4338ca"
+                      />
+                    </svg>
+                  </div>
+                  <p class="font-medium text-text-gray-500">SSL Sertifikaları</p>
                 </li>
               </ul>
               <button
                 type="submit"
                 class="inline-flex items-center justify-center w-full h-12 px-6 font-semibold tracking-wide text-white transition duration-200 rounded shadow-md bg-[#4338ca] hover:bg-teal-accent-700 focus:shadow-outline focus:outline-none"
               >
-                Get Now
+                Şimdi Al
               </button>
             </div>
             <div class="w-11/12 h-2 mx-auto bg-white shadow-md rounded-b opacity-75" />

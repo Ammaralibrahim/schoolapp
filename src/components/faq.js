@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Faq() {
   return (
-    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20" id="FAQ">
+    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20" id="SSS">
       <div className="max-w-xl sm:mx-auto lg:max-w-2xl">
         <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
           <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-500 sm:text-4xl md:mx-auto">
@@ -29,9 +29,9 @@ export default function Faq() {
                   height="24"
                 />
               </svg>
-              <span className="relative text-[#4338ca]">The quick</span>
+              <span className="relative text-[#4338ca]">Hızlı</span>
             </span>{" "}
-            brown fox jumps over a lazy dog
+            kahverengi tilki, tembel bir köpeğin üzerinden atlar
           </h2>
           <p className="text-base text-gray-500 md:text-lg">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -44,83 +44,84 @@ export default function Faq() {
           <div className="space-y-8">
             <div>
               <p className="mb-4 text-xl text-[#4338ca] font-medium">
-                The quick, brown fox jumps over a lazy dog?
+                Hızlı, kahverengi tilki, tembel bir köpeğin üzerinden atlar mı?
               </p>
               <p className="text-gray-500">
-                Space, the final frontier. These are the voyages of the Starship
-                Enterprise. Its five-year mission: to explore strange new
-                worlds.
+                Uzay, sonsuz uzay. İşte Yıldız Gemisi Enterprise'ın yolculukları.
+                Beş yıllık görevi: garip yeni dünyaları keşfetmek.
                 <br />
                 <br />
-                Many say exploration is part of our destiny, but it’s actually
-                our duty to future generations.
+                Birçok kişi keşfin kaderimizin bir parçası olduğunu söyler, ancak
+                aslında gelecek nesillere karşı görevimizdir.
               </p>
             </div>
             <div>
               <p className="mb-4 text-xl text-[#4338ca] font-medium">
-                The first mate and his Skipper too will do?
+                Birinci kaptan yardımcısı ve onun Kaptanı da yapacak mı?
               </p>
               <p className="text-gray-500">
-                Well, the way they make shows is, they make one show. That
-                show's called a pilot.
+                İşte şov yapma şekilleri, bir şov yaparlar. Bu şovun adı bir
+                pilot bölümüdür.
                 <br />
                 <br />
-                Then they show that show to the people who make shows, and on
-                the strength of that one show they decide if they're going to
-                make more shows. Some pilots get picked and become television
-                programs.Some don't, become nothing. She starred in one of the
-                ones that became nothing.
+                Sonra bu şovu şov yapan insanlara gösterirler ve o tek şovun
+                gücüne dayanarak başka şovlar yapacaklarına karar verirler.
+                Bazı pilot bölümler seçilir ve televizyon programları olur.
+                Bazıları seçilmez, hiçbir şey olmaz. O, hiçbir şey olmayanlardan
+                birinde başrolde oynadı.
               </p>
             </div>
             <div>
               <p className="mb-4 text-xl text-[#4338ca] font-medium">
-                Is the Space Pope reptilian!?
+                Uzay Papanın sürüngen olduğunu mu!?
               </p>
               <p className="text-gray-500">
-                A flower in my garden, a mystery in my panties. Heart attack
-                never stopped old Big Bear. I didn't even know we were calling
-                him Big Bear.
+                Bahçemde bir çiçek, iç çamaşırlarımda bir gizem. Kalp krizi,
+                eski Büyük Ayı'yı asla durdurmadı. Onun adına Büyük Ayı dememizi
+                bile bilmiyordum.
               </p>
             </div>
           </div>
           <div className="space-y-8">
             <div>
               <p className="mb-4 text-xl text-[#4338ca] font-medium">
-                How much money you got on you?
+                Üzerinde ne kadar para var?
               </p>
               <p className="text-gray-500">
-                The first mate and his Skipper too will do their very best to
-                make the others comfortable in their tropic island nest.
+                Birinci kaptan yardımcısı ve onun Kaptanı, diğerlerini
+                tropikal adanın yuvasında rahat hissettirmek için ellerinden
+                geleni yapacaklar.
                 <br />
                 <br />
-                Michael Knight a young loner on a crusade to champion the cause
-                of the innocent. The helpless. The powerless in a world of
-                criminals who operate above the law. Here he comes Here comes
-                Speed Racer. He's a demon on wheels.
+                Michael Knight, masumların sebebini savunma görevi üstlenmiş
+                genç bir yalnız, suçluların üzerinde işleyen güçsüzlerin,
+                hukuk üstünde işleyen suçluların davasını savunma görevi
+                üstlenmiş biridir. İşte geliyor. İşte Speed Racer geliyor. O,
+                tekerlekler üzerinde bir şeytan.
               </p>
             </div>
             <div>
               <p className="mb-4 text-xl text-[#4338ca] font-medium">
-                Galaxies Orion's sword globular star cluster?
+                Galaksiler, Orion'un kılıcı küresel yıldız kümesi?
               </p>
               <p className="text-gray-500">
-                A business big enough that it could be listed on the NASDAQ goes
-                belly up. Disappears!
+                NASDAQ'da listelenebilecek kadar büyük bir iş, batıyor.
+                Ortadan kayboluyor!
                 <br />
                 <br />
-                It ceases to exist without me. No, you clearly don't know who
-                you're talking to, so let me clue you in.
+                Beni olmadan var olmaktan vazgeçer. Hayır, açıkça kiminle
+                konuştuğunu bilmiyorsun, bu yüzden seni aydınlatayım.
               </p>
             </div>
             <div>
               <p className="mb-4 text-xl text-[#4338ca] font-medium">
-                When has justice ever been as simple as a rule book?
+                Adalet ne zaman bir kılavuz kitap kadar basit olmuştur?
               </p>
               <p className="text-gray-500">
-                This is not about revenge. This is about justice. A lot of
-                things can change in twelve years, Admiral. Well, that's
-                certainly good to know. About four years. I got tired of hearing
-                how young I looked.
+                Bu intikam hakkında değil. Bu, adaletle ilgilidir. On iki yıl
+                içinde birçok şey değişebilir, Amiral. Bu kesinlikle iyi
+                bilgi. Hakkında nasıl konuştuğunuzu bilmeyebilirsiniz. Yaklaşık
+                dört yıl. Genç görünüşümü duymaktan sıkıldım.
               </p>
             </div>
           </div>
