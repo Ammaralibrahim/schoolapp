@@ -132,7 +132,7 @@ export default function Navbar() {
             </li>
             <li>
               <Link
-                to="/kayit-ol"
+                to="/signup"
                 class="inline-flex items-center animate-bounce justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-blue-400 hover:bg-blue-700 focus:shadow-outline focus:outline-none"
                 aria-label="Kayıt Ol"
                 title="Kayıt Ol"
@@ -319,7 +319,7 @@ export default function Navbar() {
                       <li>
                         <Link
                           onClick={() => setIsMenuOpen(false)}
-                          to="/kayit-ol"
+                          to="/signup"
                           class="inline-flex items-center animate-bounce  justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-blue-400 hover:bg-blue-700 focus:shadow-outline focus:outline-none"
                           aria-label="Kayıt Ol"
                           title="Kayıt Ol"

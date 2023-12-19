@@ -24,7 +24,7 @@ function App() {
       <Footer/>
 
       <Link
-        to="Home"
+        to="AnaSayfa"
         spy={false}
         smooth={true}
         offset={0}
