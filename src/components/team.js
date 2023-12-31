@@ -34,7 +34,7 @@ export default function Team() {
                 height="24"
               />
             </svg>
-            <span className="relative text-[#4338ca]">
+            <span className="relative text-black">
               Welcome our talented team of professionals
             </span>
           </span>{" "}

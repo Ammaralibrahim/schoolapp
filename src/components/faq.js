@@ -7,33 +7,12 @@ export default function Faq() {
         <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
           <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-500 sm:text-4xl md:mx-auto">
             <span className="relative inline-block">
-              <svg
-                viewBox="0 0 52 24"
-                fill="currentColor"
-                className="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block"
-              >
-                <defs>
-                  <pattern
-                    id="70326c9b-4a0f-429b-9c76-792941e326d5"
-                    x="0"
-                    y="0"
-                    width=".135"
-                    height=".30"
-                  >
-                    <circle cx="1" cy="1" r=".7" />
-                  </pattern>
-                </defs>
-                <rect
-                  fill="url(#70326c9b-4a0f-429b-9c76-792941e326d5)"
-                  width="52"
-                  height="24"
-                />
-              </svg>
-              <span className="relative text-[#4338ca]">Hızlı</span>
+              
+              <span className="relative text-black border-dashed border-b-2 border-[#a32cc4] pb-2">Sıkça Sorulan Sorular</span>
             </span>{" "}
-            kahverengi tilki, tembel bir köpeğin üzerinden atlar
+            
           </h2>
-          <p className="text-base text-gray-500 md:text-lg">
+          <p className="text-base text-gray-500 md:text-lg  ">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium doloremque rem aperiam, eaque ipsa quae.
           </p>
@@ -43,7 +22,7 @@ export default function Faq() {
         <div className="grid grid-cols-1 gap-16 row-gap-8 lg:grid-cols-2">
           <div className="space-y-8">
             <div>
-              <p className="mb-4 text-xl text-[#4338ca] font-medium">
+              <p className="mb-4 text-xl text-black font-medium">
                 Hızlı, kahverengi tilki, tembel bir köpeğin üzerinden atlar mı?
               </p>
               <p className="text-gray-500">
@@ -56,7 +35,7 @@ export default function Faq() {
               </p>
             </div>
             <div>
-              <p className="mb-4 text-xl text-[#4338ca] font-medium">
+              <p className="mb-4 text-xl text-black font-medium">
                 Birinci kaptan yardımcısı ve onun Kaptanı da yapacak mı?
               </p>
               <p className="text-gray-500">
@@ -72,7 +51,7 @@ export default function Faq() {
               </p>
             </div>
             <div>
-              <p className="mb-4 text-xl text-[#4338ca] font-medium">
+              <p className="mb-4 text-xl text-black font-medium">
                 Uzay Papanın sürüngen olduğunu mu!?
               </p>
               <p className="text-gray-500">
@@ -84,7 +63,7 @@ export default function Faq() {
           </div>
           <div className="space-y-8">
             <div>
-              <p className="mb-4 text-xl text-[#4338ca] font-medium">
+              <p className="mb-4 text-xl text-black font-medium">
                 Üzerinde ne kadar para var?
               </p>
               <p className="text-gray-500">
@@ -101,7 +80,7 @@ export default function Faq() {
               </p>
             </div>
             <div>
-              <p className="mb-4 text-xl text-[#4338ca] font-medium">
+              <p className="mb-4 text-xl text-black font-medium">
                 Galaksiler, Orion'un kılıcı küresel yıldız kümesi?
               </p>
               <p className="text-gray-500">
@@ -114,7 +93,7 @@ export default function Faq() {
               </p>
             </div>
             <div>
-              <p className="mb-4 text-xl text-[#4338ca] font-medium">
+              <p className="mb-4 text-xl text-black font-medium">
                 Adalet ne zaman bir kılavuz kitap kadar basit olmuştur?
               </p>
               <p className="text-gray-500">

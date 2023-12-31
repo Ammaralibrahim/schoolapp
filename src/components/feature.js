@@ -9,36 +9,14 @@ export default function Feature() {
       <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
         <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-500 sm:text-4xl md:mx-auto">
           <span className="relative inline-block">
-            <svg
-              viewBox="0 0 52 24"
-              fill="currentColor"
-              className="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block"
-            >
-              <defs>
-                <pattern
-                  id="07690130-d013-42bc-83f4-90de7ac68f76"
-                  x="0"
-                  y="0"
-                  width=".135"
-                  height=".30"
-                >
-                  <circle cx="1" cy="1" r=".7" />
-                </pattern>
-              </defs>
-              <rect
-                fill="url(#07690130-d013-42bc-83f4-90de7ac68f76)"
-                width="52"
-                height="24"
-              />
-            </svg>
-            <span className="relative text-[#4338ca]">
-              Hızlı, kahverengi tilki, tembel bir köpeğin üzerinden atlar
+            <span className="relative text-black border-dashed border-b-2 border-[#a32cc4] pb-2">
+              Özellikler
             </span>
           </span>{" "}
         </h2>
         <p className="text-base text-gray-500 md:text-lg">
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque rem aperiam, eaque ipsa quae.
+          Öğrencilerin öğrenme süreçlerini kişiselleştirmelerine ve optimize
+          etmelerine olanak tanıyan bazı özelliklerimiz:
         </p>
       </div>
       <div className="grid max-w-screen-lg mx-auto space-y-6 lg:grid-cols-3 lg:space-y-0 lg:divide-x">
@@ -114,9 +92,7 @@ const FeatureItem = ({ iconColor, title, description }) => (
       </div>
     </div>
     <div>
-      <h6 className="mb-3 text-xl font-bold leading-5 text-[#4338ca]">
-        {title}
-      </h6>
+      <h6 className="mb-3 text-xl font-bold leading-5 text-black">{title}</h6>
       <p className="text-sm text-gray-500">{description}</p>
     </div>
   </div>

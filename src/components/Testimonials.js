@@ -4,7 +4,7 @@ export default function Testimonials() {
   return (
     <section className="bg-white" id="Referanslar">
       <div className="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
-        <h2 className="text-center text-4xl font-bold tracking-tight text-[#4338ca] sm:text-5xl">
+        <h2 className="text-center text-4xl font-bold tracking-tight text-black sm:text-5xl">
           Read trusted reviews from our customers
         </h2>
 
@@ -18,7 +18,7 @@ export default function Testimonials() {
               />
 
               <div>
-                <div className="flex justify-center gap-0.5 text-[#4338ca]">
+                <div className="flex justify-center gap-0.5 text-black">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-5 w-5"
@@ -84,7 +84,7 @@ export default function Testimonials() {
               />
 
               <div>
-                <div className="flex justify-center gap-0.5 text-[#4338ca]">
+                <div className="flex justify-center gap-0.5 text-black">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-5 w-5"
@@ -150,7 +150,7 @@ export default function Testimonials() {
               />
 
               <div>
-                <div className="flex justify-center gap-0.5 text-[#4338ca]">
+                <div className="flex justify-center gap-0.5 text-black">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-5 w-5"

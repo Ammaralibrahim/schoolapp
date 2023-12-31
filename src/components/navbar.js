@@ -5,7 +5,7 @@ export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className="fixed top-0 w-full bg-white z-10">
+    <div className="fixed top-0 w-full bg-transparent z-10">
       <div className="px-4 py-3 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
         <div className="relative flex items-center justify-between">
           <Link
@@ -30,7 +30,7 @@ export default function Navbar() {
               <rect x="14" y="11" width="7" height="12" />
             </svg>
             <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
-              Plain<span className="text-[#4338ca]">IQ</span>
+              Plain<span className="text-black">IQ</span>
             </span>
           </Link>
           <ul className="flex items-center hidden space-x-8 lg:flex">
@@ -41,21 +41,21 @@ export default function Navbar() {
                 smooth={true}
                 offset={-70}
                 duration={1000}
-                className="font-medium tracking-wide text-gray-500 cursor-pointer transition-colors duration-200 hover:text-deep-purple-accent-400"
+                className="font-medium tracking-wide text-white  cursor-pointer transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
                 Ana Sayfa
               </Link>
             </li>
             <li>
               <Link
-                to="Hakkında"
+                to="Hakkımızda"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
-                className="font-medium tracking-wide text-gray-500 cursor-pointer transition-colors duration-200 hover:text-deep-purple-accent-400"
+                className="font-medium tracking-wide text-white  cursor-pointer transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
-                Hakkında
+                Hakkımızda
               </Link>
             </li>
             <li>
@@ -65,35 +65,35 @@ export default function Navbar() {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                className="font-medium tracking-wide text-gray-500 cursor-pointer transition-colors duration-200 hover:text-deep-purple-accent-400"
+                className="font-medium tracking-wide text-white  cursor-pointer transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
                 Özellikler
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link
                 to="Ekip"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
-                className="font-medium tracking-wide text-gray-500 cursor-pointer transition-colors duration-200 hover:text-deep-purple-accent-400"
+                className="font-medium tracking-wide text-white  cursor-pointer transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
                 Ekip
               </Link>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <Link
                 to="Referanslar"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
-                className="font-medium tracking-wide text-gray-500 cursor-pointer transition-colors duration-200 hover:text-deep-purple-accent-400"
+                className="font-medium tracking-wide text-white  cursor-pointer transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
                 Referanslar
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link
                 to="Fiyatlandırma"
@@ -101,7 +101,7 @@ export default function Navbar() {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                className="font-medium tracking-wide text-gray-500 cursor-pointer transition-colors duration-200 hover:text-deep-purple-accent-400"
+                className="font-medium tracking-wide text-white  cursor-pointer transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
                 Fiyatlandırma
               </Link>
@@ -113,9 +113,9 @@ export default function Navbar() {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                className="font-medium tracking-wide text-gray-500 cursor-pointer transition-colors duration-200 hover:text-deep-purple-accent-400"
+                className="font-medium tracking-wide text-white  cursor-pointer transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
-                SSS
+                Sorular
               </Link>
             </li>
             <li>
@@ -125,7 +125,7 @@ export default function Navbar() {
                 smooth={true}
                 offset={-70}
                 duration={800}
-                className="font-medium tracking-wide text-gray-500 cursor-pointer transition-colors duration-200 hover:text-deep-purple-accent-400"
+                className="font-medium tracking-wide text-white  cursor-pointer transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
                 İletişim
               </Link>
@@ -133,7 +133,7 @@ export default function Navbar() {
             <li>
               <Link
                 to="/signup"
-                class="inline-flex items-center animate-bounce justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-blue-400 hover:bg-blue-700 focus:shadow-outline focus:outline-none"
+                class="inline-flex items-center animate-bounce  justify-center h-12 px-6 font-medium tracking-wide cursor-pointer text-white transition duration-200 rounded shadow-md bg-black hover:bg-[#b65fcf] focus:shadow-outline focus:outline-none"
                 aria-label="Kayıt Ol"
                 title="Kayıt Ol"
               >
@@ -220,7 +220,7 @@ export default function Navbar() {
                           smooth={true}
                           offset={-70}
                           duration={500}
-                          className="font-medium tracking-wide text-gray-500 cursor-pointer transition-colors duration-200 hover:text-deep-purple-accent-400"
+                          className="font-medium tracking-wide text-white  cursor-pointer transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
                           Ana Sayfa
                         </Link>
@@ -233,7 +233,7 @@ export default function Navbar() {
                           smooth={true}
                           offset={-70}
                           duration={500}
-                          className="font-medium tracking-wide text-gray-500 cursor-pointer transition-colors duration-200 hover:text-deep-purple-accent-400"
+                          className="font-medium tracking-wide text-white  cursor-pointer transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
                           Hakkında
                         </Link>
@@ -246,7 +246,7 @@ export default function Navbar() {
                           smooth={true}
                           offset={-70}
                           duration={500}
-                          className="font-medium tracking-wide text-gray-500 cursor-pointer transition-colors duration-200 hover:text-deep-purple-accent-400"
+                          className="font-medium tracking-wide text-white  cursor-pointer transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
                           Özellikler
                         </Link>
@@ -259,7 +259,7 @@ export default function Navbar() {
                           smooth={true}
                           offset={-70}
                           duration={500}
-                          className="font-medium tracking-wide text-gray-500 cursor-pointer transition-colors duration-200 hover:text-deep-purple-accent-400"
+                          className="font-medium tracking-wide text-white  cursor-pointer transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
                           Ekip
                         </Link>
@@ -272,7 +272,7 @@ export default function Navbar() {
                           smooth={true}
                           offset={-70}
                           duration={500}
-                          className="font-medium tracking-wide text-gray-500 cursor-pointer transition-colors duration-200 hover:text-deep-purple-accent-400"
+                          className="font-medium tracking-wide text-white  cursor-pointer transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
                           Referanslar
                         </Link>
@@ -285,7 +285,7 @@ export default function Navbar() {
                           smooth={true}
                           offset={-70}
                           duration={500}
-                          className="font-medium tracking-wide text-gray-500 cursor-pointer transition-colors duration-200 hover:text-deep-purple-accent-400"
+                          className="font-medium tracking-wide text-white  cursor-pointer transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
                           Fiyatlandırma
                         </Link>
@@ -298,7 +298,7 @@ export default function Navbar() {
                           smooth={true}
                           offset={-70}
                           duration={500}
-                          className="font-medium tracking-wide text-gray-500 cursor-pointer transition-colors duration-200 hover:text-deep-purple-accent-400"
+                          className="font-medium tracking-wide text-white  cursor-pointer transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
                           SSS
                         </Link>
@@ -311,7 +311,7 @@ export default function Navbar() {
                           smooth={true}
                           offset={-70}
                           duration={500}
-                          className="font-medium tracking-wide text-gray-500 cursor-pointer transition-colors duration-200 hover:text-deep-purple-accent-400"
+                          className="font-medium tracking-wide text-white  cursor-pointer transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
                           İletişim
                         </Link>
@@ -320,7 +320,7 @@ export default function Navbar() {
                         <Link
                           onClick={() => setIsMenuOpen(false)}
                           to="/signup"
-                          class="inline-flex items-center animate-bounce  justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-blue-400 hover:bg-blue-700 focus:shadow-outline focus:outline-none"
+                          class="inline-flex items-center animate-bounce  justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-[#cd9ffa] hover:bg-[#8e1efc] focus:shadow-outline focus:outline-none"
                           aria-label="Kayıt Ol"
                           title="Kayıt Ol"
                         >

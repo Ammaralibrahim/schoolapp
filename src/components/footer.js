@@ -27,7 +27,7 @@ export default function Footer() {
               <rect x="14" y="11" width="7" height="12" />
             </svg>
             <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
-              Plain<span className='text-[#4338ca]'>IQ</span>
+              Plain<span className='text-black'>IQ</span>
             </span>
           </a>
           <div className="mt-4 lg:max-w-sm">

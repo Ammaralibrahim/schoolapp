@@ -14,14 +14,16 @@ function App() {
   return (
     <>
       <Navbar />
-      <Hero />
+      <div className="bg-gradient-to-r from-[#cd9ffa] to-[#FF9933]">
+        <Hero />
+      </div>
       <About />
       <Feature />
-      <Team />
+      {/* <Team /> */}
       <Faq />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Pricing />
-      <Footer/>
+      <Footer />
 
       <Link
         to="AnaSayfa"
@@ -32,8 +34,8 @@ function App() {
         id="sticky-banner"
         class="fixed bottom-0 right-0 z-9999 flex justify-between mr-4 animate-bounce p-3 cursor-pointer hover:text-deep-purple-accent-400 hover:border-deep-purple-accent-400 duration-300 transform border border-gray-400 rounded-full hover:shadow hover:scale-110 bg-transparent "
       >
-       <svg
-       className="rotate-180"
+        <svg
+          className="rotate-180"
           xmlns="http://www.w3.org/2000/svg"
           width="12"
           height="12"

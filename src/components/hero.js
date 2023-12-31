@@ -3,20 +3,27 @@ import { Link } from "react-router-dom";
 
 export default function Hero() {
   return (
-    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-24" id="AnaSayfa">
+    <div
+      className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-24"
+      id="AnaSayfa"
+    >
       <div className="flex flex-col items-center justify-between w-full mb-10 lg:flex-row">
         <div className="mb-16 lg:mb-0 lg:max-w-lg lg:pr-5">
           <div className="max-w-xl mb-6">
-            <h2 className="font-sans text-3xl font-bold tracking-tight text-[#4338ca] sm:text-4xl sm:leading-none max-w-lg mb-6">
-              Her şeyi
-              <br className="hidden md:block text-[#4338ca]" />
-              hayal edebilirsin{" "}
+            <h2 className="font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none max-w-lg mb-6">
+              Hedefine Nasıl Ulaşacağını
+              <br className="hidden md:block text-white" />
+              BİZ{" "}
               <span className="inline-block text-deep-purple-accent-400">
-                gerçektir
+                Biliyoruz!
               </span>
             </h2>
-            <p className="text-gray-500 text-base md:text-lg">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.
+            <p className="text-white text-base md:text-lg">
+              Hedeflerinize ulaşmak için yapay zekanın gücünden yararlanın!<br></br> Size
+              özel olarak hazırlanan programlar, derece öğrencilerinin
+              kullandığı yöntemlerle donatılmıştır. Sadece sizin için
+              özelleştirilmiş, başarıya giden yolda sizi bir adım öne taşıyacak
+              programlarla hedeflerinize hızla ulaşın!
             </p>
           </div>
           <div className="flex items-center space-x-3">

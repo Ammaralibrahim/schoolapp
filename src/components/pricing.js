@@ -30,9 +30,9 @@ export default function Fiyatlandirma() {
                   height="24"
                 />
               </svg>
-              <span class="relative text-[#4338ca]">Uygun</span>
+              <span class="relative text-black">Uygun</span>
             </span>{" "}
-            <span className="text-[#4338ca]">herkes için</span>
+            <span className="text-black">herkes için</span>
           </h2>
           <p class="text-base text-gray-500 md:text-lg">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -47,7 +47,7 @@ export default function Fiyatlandirma() {
                   Başlangıç Planı
                 </p>
                 <div class="flex items-center justify-center">
-                  <p class="mr-2 text-5xl font-semibold text-[#4338ca] lg:text-6xl">
+                  <p class="mr-2 text-5xl font-semibold text-black lg:text-6xl">
                     $39
                   </p>
                   <p class="text-lg text-text-gray-500">/ ay</p>
@@ -157,7 +157,7 @@ export default function Fiyatlandirma() {
               </ul>
               <button
                 type="submit"
-                class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-[#4338ca] hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+                class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-black hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
               >
                 Şimdi Al
               </button>
@@ -173,7 +173,7 @@ export default function Fiyatlandirma() {
                   Pro Planı
                 </p>
                 <div class="flex items-center justify-center">
-                  <p class="mr-2 text-5xl font-semibold text-[#4338ca] lg:text-6xl">
+                  <p class="mr-2 text-5xl font-semibold text-black lg:text-6xl">
                     $59
                   </p>
                   <p class="text-lg text-text-gray-500">/ ay</p>
@@ -285,7 +285,7 @@ export default function Fiyatlandirma() {
               </ul>
               <button
                 type="submit"
-                class="inline-flex items-center justify-center w-full h-12 px-6 font-semibold tracking-wide text-white transition duration-200 rounded shadow-md bg-[#4338ca] hover:bg-teal-accent-700 focus:shadow-outline focus:outline-none"
+                class="inline-flex items-center justify-center w-full h-12 px-6 font-semibold tracking-wide text-white transition duration-200 rounded shadow-md bg-black hover:bg-teal-accent-700 focus:shadow-outline focus:outline-none"
               >
                 Şimdi Al
               </button>
